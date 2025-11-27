@@ -68,6 +68,7 @@ todo-list-dark-light-mode/
 │── preview-todo-list.png
 └── README.md
 
+
 ▶️ Como executar localmente
 
 Clone o repositório:
