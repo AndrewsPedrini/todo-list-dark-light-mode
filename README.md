@@ -68,7 +68,6 @@ todo-list-dark-light-mode/
 │── preview-todo-list.png
 └── README.md
 
-
 ▶️ Como executar localmente
 
 Clone o repositório:
@@ -82,7 +81,6 @@ cd todo-list-dark-light-mode
 
 
 Abra o arquivo index.html no navegador.
-
 
 💡 Aprendizados
 
@@ -112,9 +110,7 @@ Criar categorias/tags para organizar tarefas
 
 Criar versão em React (futuro projeto)
 
-
 👨‍💻 Desenvolvido por
 
 Andrews Vinicius Aparecido Pedrini
 🔗 LinkedIn: https://linkedin.com/in/andrews-pedrini
-
