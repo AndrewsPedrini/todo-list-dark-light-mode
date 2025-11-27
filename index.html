@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do List | Andrews Pedrini</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light-theme">
+  <div class="app">
+    <header class="app-header">
+      <div>
+        <h1>Minha To-Do List</h1>
+        <p>Organize suas tarefas do dia de forma simples e prática.</p>
+      </div>
+
+      <button id="theme-toggle" class="theme-toggle" aria-label="Alterar tema">
+        🌞 Claro
+      </button>
+    </header>
+
+    <main>
+      <section class="add-task">
+        <form id="task-form">
+          <input
+            type="text"
+            id="task-input"
+            placeholder="Digite uma tarefa e pressione Enter..."
+            autocomplete="off"
+          />
+          <button type="submit">Adicionar</button>
+        </form>
+      </section>
+
+      <section class="task-controls">
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">Todas</button>
+          <button class="filter-btn" data-filter="active">Ativas</button>
+          <button class="filter-btn" data-filter="completed">Concluídas</button>
+        </div>
+        <span id="task-counter" class="task-counter"></span>
+      </section>
+
+      <section class="task-list-section">
+        <ul id="task-list" class="task-list">
+          <!-- Tarefas são inseridas via JavaScript -->
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
